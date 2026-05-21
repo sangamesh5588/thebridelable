@@ -39,8 +39,8 @@ export function Navbar() {
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-16 md:h-20">
-          <Link to="/" className={`font-display text-xl md:text-2xl font-light tracking-wide ${textColor} transition-colors duration-500`}>
-            AURA
+          <Link to="/" className={`font-display text-lg md:text-xl font-light tracking-wide ${textColor} transition-colors duration-500`}>
+            The Third Label
           </Link>
 
           <div className="hidden md:flex items-center gap-10">
@@ -116,7 +116,7 @@ function MobileMenu() {
       transition={{ duration: reduced ? 0.2 : 0.4 }}
     >
       <div className="flex justify-between items-center px-6 h-16">
-        <span className="font-display text-xl font-light">AURA</span>
+        <span className="font-display text-lg font-light">The Third Label</span>
         <button onClick={closeMobileMenu} className="p-2" aria-label="Close menu">
           <X className="w-6 h-6" />
         </button>
@@ -150,7 +150,7 @@ function MobileMenu() {
           <span>Instagram</span>
           <span>Pinterest</span>
         </div>
-        <p className="text-sm text-aura-gray mt-2">hello@aurabridal.com</p>
+        <p className="text-sm text-aura-gray mt-2">hello@thethirdlabel.com</p>
       </div>
     </motion.div>
   )

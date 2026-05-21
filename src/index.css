@@ -69,6 +69,10 @@ html.lenis, html.lenis body {
   background: var(--aura-gold);
 }
 
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
 /* Swiper pagination */
 .swiper-pagination-bullet {
   background: var(--aura-black) !important;

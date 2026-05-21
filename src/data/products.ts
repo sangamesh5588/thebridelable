@@ -24,7 +24,7 @@ export const PRODUCTS: Product[] = [
     madeToOrder: true,
     shipTime: '12–16 weeks',
     fabric: 'We source our silk organza from a family-owned mill in Como, Italy, renowned for producing the finest bridal textiles since 1892. Each bolt is inspected by hand for the perfect drape and luminosity.',
-    fit: 'Every Aura gown is made to your exact measurements. Our process includes two fittings — a muslin toile and a final gown fitting — to ensure perfection.',
+    fit: 'Every Third Label gown is made to your exact measurements. Our process includes two fittings — a muslin toile and a final gown fitting — to ensure perfection.',
     details: 'Hand-sewn crystal embellishments, French seams, and a fully boned corset interior. The cathedral train measures 3 meters and is finished with a horsehair braid hem.',
   },
   {

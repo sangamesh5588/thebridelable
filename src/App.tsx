@@ -19,10 +19,18 @@ import { BookingPage } from '@/pages/BookingPage'
 export default function App() {
   const location = useLocation()
   const { loaderComplete } = useStore()
-  useLenis()
+  const lenisRef = useLenis()
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    const lenis = lenisRef.current
+    if (lenis) {
+      lenis.stop()
+      document.documentElement.scrollTop = 0
+      document.body.scrollTop = 0
+      requestAnimationFrame(() => lenis.start())
+    } else {
+      window.scrollTo(0, 0)
+    }
   }, [location.pathname])
 
   return (

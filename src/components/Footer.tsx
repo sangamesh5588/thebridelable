@@ -7,7 +7,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid md:grid-cols-3 gap-12 md:gap-8">
           <div>
-            <h3 className="font-display text-2xl font-light mb-4">AURA BRIDAL</h3>
+            <h3 className="font-display text-2xl font-light mb-4">The Third Label</h3>
             <p className="font-body text-sm text-aura-gray leading-relaxed max-w-xs">
               Handcrafted couture bridal gowns. Made to measure in our Paris atelier since 1987.
             </p>
@@ -44,7 +44,7 @@ export function Footer() {
         </div>
 
         <div className="mt-16 pt-8 border-t border-aura-border flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="font-body text-xs text-aura-gray">© 2026 Aura Bridal. All rights reserved.</p>
+          <p className="font-body text-xs text-aura-gray">© 2026 The Third Label. All rights reserved.</p>
           <div className="flex gap-6">
             <span className="font-body text-xs text-aura-gray hover:text-aura-black cursor-pointer transition-colors">Privacy</span>
             <span className="font-body text-xs text-aura-gray hover:text-aura-black cursor-pointer transition-colors">Terms</span>

@@ -41,7 +41,7 @@ export function BookingPage() {
                   Book Your Private Fitting
                 </h1>
                 <p className="font-body text-base text-aura-gray leading-relaxed mt-4 max-w-lg mx-auto">
-                  Experience Aura Bridal in person. Our private fittings include a curated selection of gowns, champagne, and dedicated stylist consultation.
+                  Experience The Third Label in person. Our private fittings include a curated selection of gowns, champagne, and dedicated stylist consultation.
                 </p>
               </ScrollReveal>
 

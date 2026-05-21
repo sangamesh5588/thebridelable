@@ -20,11 +20,11 @@ export function Loader() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.4 }}
           >
-            <h1 className="font-display text-5xl md:text-7xl font-light text-aura-black tracking-wide">
-              AURA
+            <h1 className="font-display text-4xl md:text-6xl font-light text-aura-black tracking-wide">
+              The Third Label
             </h1>
             <p className="font-body text-[10px] uppercase tracking-[0.3em] text-aura-gray mt-2">
-              BRIDAL
+              COUTURE BRIDAL
             </p>
           </motion.div>
 
